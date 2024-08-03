@@ -62,7 +62,7 @@ Before you begin, make sure you have the following software installed:
 2. **Push Changes:**
    - Push your changes to GitHub:
      ```sh
-     git push origin master
+     git push origin main
      ```
 
 ## Troubleshooting
