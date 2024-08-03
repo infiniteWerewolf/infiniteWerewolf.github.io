@@ -1,0 +1,8 @@
+title: The Wonderful World of Wolfgang
+description: A place for all my passions and interests
+baseurl: ""
+url: "https://infiniteWerewolf.github.io"
+theme: minima
+
+# Build settings
+markdown: kramdown
