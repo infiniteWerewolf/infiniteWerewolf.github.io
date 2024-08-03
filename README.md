@@ -28,14 +28,21 @@ Before you begin, make sure you have the following software installed:
 
 ## Running the Jekyll Server Locally
 
-1. **Start the Jekyll Server:**
+This allows you to make changes - and view them on your local machine, without pushing them to git. So you can test your changes and make sure you're happy with them before making them live on your site.
+
+Conider using "brnaches" in git to:
+
+1. make viewing what your're planning to change easier to understand
+2. so that anyone working on the project with you can more easily see what changes you are asking / planning to make.
+
+3. **Start the Jekyll Server:**
 
    - Run the following command to start the Jekyll server:
      ```sh
      bundle exec jekyll serve
      ```
 
-2. **View the Site:**
+4. **View the Site:**
 
    - Open your web browser and go to `http://localhost:4000` to see your site. Any changes you make to the files will automatically refresh in the browser.
 
