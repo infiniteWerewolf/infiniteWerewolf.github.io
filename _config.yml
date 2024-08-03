@@ -4,5 +4,16 @@ baseurl: ""
 url: "https://infiniteWerewolf.github.io"
 theme: minima
 
+collections:
+  dnd:
+    output: true
+    permalink: /:collection/:name
+  aging:
+    output: true
+    permalink: /:collection/:name
+  tech:
+    output: true
+    permalink: /:collection/:name
+
 # Build settings
 markdown: kramdown

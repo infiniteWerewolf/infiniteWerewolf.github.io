@@ -16,6 +16,13 @@ menu_order: 3
     <article id="dnd">
         <h3>Dungeons & Dragons</h3>
         <p>Information and resources about my favorite tabletop RPG.</p>
+        <ul>
+            {% for dnd_page in site.dnd %}
+            <li>
+                <a href="{{ topic_page.url }}">{{ topic_page.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </article>
     <article id="aging">
         <h3>Finding a Cure for Aging</h3>
@@ -25,4 +32,13 @@ menu_order: 3
         <h3>Technology</h3>
         <p>Latest advancements and my projects in the world of technology.</p>
     </article>
+
+    <h2>Topics</h2>
+    <ul>
+        {% for dnd_page in site.dnd %}
+        <li>
+            <a href="{{ topic_page.url }}">{{ topic_page.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </section>
